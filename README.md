@@ -7,7 +7,7 @@ Summary
 
 
 ## Approach
-![图片描述](examples/DeepLearning Workflow.png)
+![图片描述](examples/DeepLearning_Workflow.png)
 
 ## Dataset Overview
 Originally in the `Data` folder. Since this data is private data for the hospitals, it is not open source.
