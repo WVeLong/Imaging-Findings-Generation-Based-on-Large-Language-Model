@@ -29,7 +29,7 @@ Originally in the `Data` folder. Since this data is private data for the hospita
 - python>=3.8
 - cuda>=11.6, cuDNN
 - transformers>=4.23.1
-- 使用 pip 安装依赖：`pip install -r requirements.txt`
+- Use pip to install dependencies：`pip install -r requirements.txt`
 
 ### Model
 - [ChatGLM-6B](https://huggingface.co/THUDM/chatglm-6b)
@@ -42,7 +42,7 @@ Originally in the `Data` folder. Since this data is private data for the hospita
 ## Finetune with Large Language Model
 
 ### ChatGLM-6B(LoRA)
-#### 训练
+#### Train
 
 ```bash
 python model/LoRA/finetune.py \
@@ -59,13 +59,13 @@ python model/LoRA/finetune.py \
     --logging_steps 10  \
     --output_dir output/LoRA/
 ```
-#### 推理
+#### Inerence
 ```bash
 python model/LoRA/inference.py
 ```
 
 ### ChatGLM-6B(P-Tuning)
-#### 训练
+#### Train
 ```bash
 python model/P_Tuning/main.py \
     --do_train \
@@ -93,7 +93,7 @@ python model/P_Tuning/main.py \
     --quantization_bit 4 \
     --num_beams 3
 ```
-#### 推理
+#### Inerence
 ```bash
 python model/P_Tuning/main.py \
     --do_predict \
