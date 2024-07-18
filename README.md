@@ -20,9 +20,9 @@ Originally in the `Data` folder. Since this data is private data for the hospita
 
 ### Test Data
 - A knee joint MRI reports from Peking University Third Hospital, includes 5000 reports.
-- A knee joint MRI reports from Qingdao University Affiliated Hospital, includes 30 reports.
-- A knee joint MRI reports from Yantai Yuhuangding Hospital, includes 30 reports.
-- A knee joint MRI reports from Hebei Gucheng County Hospital, includes 30 reports.
+- A knee joint MRI reports from Qingdao University Affiliated Hospital, includes 100 reports.
+- A knee joint MRI reports from Yantai Yuhuangding Hospital, includes 100 reports.
+- A knee joint MRI reports from Hebei Gucheng County Hospital, includes 100 reports.
 
 ## Getting Started
 ### Environment
