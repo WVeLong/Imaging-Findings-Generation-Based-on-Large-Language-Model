@@ -59,7 +59,7 @@ python model/LoRA/finetune.py \
     --logging_steps 10  \
     --output_dir output/LoRA/
 ```
-#### Inerence
+#### Inference
 ```bash
 python model/LoRA/inference.py
 ```
@@ -93,7 +93,7 @@ python model/P_Tuning/main.py \
     --quantization_bit 4 \
     --num_beams 3
 ```
-#### Inerence
+#### Inference
 ```bash
 python model/P_Tuning/main.py \
     --do_predict \
