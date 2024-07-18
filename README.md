@@ -2,7 +2,7 @@
 
 Summary
 
->**[Manuscript](http://path_to_paper)** \
+>**[Manuscript](http://path to paper)** \
 > Author Information
 
 
